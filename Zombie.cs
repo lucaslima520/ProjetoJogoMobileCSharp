@@ -22,5 +22,6 @@ public class Zombie : MonoBehaviour
     {
         
         rig.MovePosition(transform.position + Vector3.down * speed * Time.deltaTime);
+        
     }
 }

@@ -17,6 +17,7 @@ public class Spawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         timeCount += Time.deltaTime;
         Physics2D.IgnoreLayerCollision(3,9);
 
