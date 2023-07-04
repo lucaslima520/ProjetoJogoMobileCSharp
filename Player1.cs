@@ -31,7 +31,7 @@ public class Player1 : MonoBehaviour
         anim.SetFloat("Vertical",movement.y);
         anim.SetFloat("Speed",movement.magnitude);
 
-
+        //testes
 
         if(movement.x == 0.0f){
             movement.x = CrossPlatformInputManager.GetAxis("Horizontal");
